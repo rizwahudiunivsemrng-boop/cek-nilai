@@ -5,13 +5,7 @@ st.code("""
 ########## SELAMAT DATANG ##########
      PROGRAM ANALISIS NILAI UAS
 ###################################
-
-    JJJJJ  IIII  NN     NNNN GGGGGGGGG GGGGGGGGG     AAA
-      JJ    II   NN    NN NN GG        GG           AA AA
-      JJ    II   NN   NN  NN GG   GGGG GG   GGGG   AA   AA
- JJ   JJ    II   NN  NN   NN GG     GG GG     GG  AA AAA AA
- JJJJJJJ   IIII  NNNN     NN GGGGGGGGG GGGGGGGGG AA       AA
-""")
+        """)
 
 st.write("### HALO! Selamat, Hasil UAS sudah keluar.")
 
