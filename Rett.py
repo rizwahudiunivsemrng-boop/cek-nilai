@@ -1,11 +1,8 @@
 import streamlit as st
 
 # Ini buat nampilin teks Sambutan & Logo ASCII kamu biar tetep ada di web
-st.code("""
-########## SELAMAT DATANG ##########
-     PROGRAM ANALISIS NILAI UAS
-###################################
-        """)
+st.markdown("<h1 style='text-align: center;'>########## SELAMAT DATANG ##########</h1>",unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center;'>PROGRAM ANALISIS NILAI UAS</h3>", unsafe_allow_html=True)
 
 st.write("### HALO! Selamat, Hasil UAS sudah keluar.")
 
