@@ -1,10 +1,10 @@
 import streamlit as st
 
 # Ini buat nampilin teks Sambutan & Logo ASCII kamu biar tetep ada di web
-st.markdown("<h1 style='text-align: center;'>########## SELAMAT DATANG ##########</h1>",unsafe_allow_html=True)
-st.markdown("<h3 style='text-align: center;'>PROGRAM ANALISIS NILAI UAS</h3>", unsafe_allow_html=True)
-
-st.write("### HALO! Selamat, Hasil UAS sudah keluar.")
+# Header & Tulisan Sambutan di Tengah
+st.markdown("<h1 style='text-align: center;'>########## SELAMAT DATANG ##########</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'>PROGRAM ANALISIS NILAI UAS</h2>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center;'>HALO! Selamat, Hasil UAS sudah keluar.</p>", unsafe_allow_html=True)
 
 # Input Data lewat Sidebar (biar rapi di samping)
 with st.sidebar:
