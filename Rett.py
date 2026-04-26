@@ -3,8 +3,8 @@ st.set_page_config(layout="wide")
 
 # Ini buat nampilin teks Sambutan & Logo ASCII kamu biar tetep ada di web
 # Header & Tulisan Sambutan di Tengah
-st.markdown("<h1 style='text-align: center;'>########## SELAMAT DATANG ##########</h1>", unsafe_allow_html=True)
-st.markdown("<h1 style='text-align: center;'>###### DI PROGRAM ANALISIS NILAI UAS ######</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>SELAMAT DATANG</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>PROGRAM ANALISIS NILAI UAS</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center;'>HALO! Selamat, Hasil UAS sudah keluar.</p>", unsafe_allow_html=True)
 
 # Input Data lewat Sidebar (biar rapi di samping)
