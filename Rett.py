@@ -1,4 +1,5 @@
 import streamlit as st
+st.set_page_config(layout="wide")
 
 # Ini buat nampilin teks Sambutan & Logo ASCII kamu biar tetep ada di web
 # Header & Tulisan Sambutan di Tengah
